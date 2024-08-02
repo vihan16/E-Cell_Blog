@@ -390,7 +390,7 @@ section .home {
   }
   .home .content{
     text-align: center;
-    width: 85%;
+    width: 90%;
   }
   .home .img-slide{
     height: 70vh;
@@ -403,7 +403,25 @@ section .home {
     line-height: 25px;
   }
   .slider-navigation{
-    transform: translateY(36vh);
+    transform: translateY(37vh);
+  }
+  .slider-navigation .nav-btn {
+    width: 9px;
+    height: 9px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+  }
+  .home .content a {
+    background: #1266f1;
+    padding: 4px 7px;
+    color: #fff;
+    font-size: .8em;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 2px;
   }
 }
 @media (max-width: 360px) {
