@@ -424,7 +424,7 @@ section .home {
     border-radius: 2px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 370px) {
   .home{
     min-height: 63vh;
   }
