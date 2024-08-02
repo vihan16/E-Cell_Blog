@@ -389,6 +389,7 @@ section .home {
     min-height: 73vh;
   }
   .home .content{
+    text-align: center;
     width: 85%;
   }
   .home .img-slide{
